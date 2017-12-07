@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Query train tickets}
   spec.description   = %q{Query train tickets info by 12306 }
-  spec.homepage      = "https://www.baidu.com"
+  spec.homepage      = "https://github.com/jiewuzhan/tickets"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
