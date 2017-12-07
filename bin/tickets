@@ -1,0 +1,23 @@
+require 'tickets'
+require 'trollop'
+
+options = Trollop::options do
+  version "tickets #{Tickets::VERSION}"
+  banner <<-EOS
+  Test is an awesome program that query 12306 train infomations.
+
+  Usage:
+        tickets [options] 
+  EOS
+
+  opt :gaotie, "Only gaotie"
+  opt :zhida, "Only zhida"
+  opt :dongche, "Only dongche"
+  opt :tekuai, "Only tekuai"
+  opt :kuaisu, "Only kuaisu"  
+  opt :from, "From station", :type => String
+  opt :to, "To station", :type => String
+  opt :date, "Query date: YYYY-MM-DD", :type => String
+end
+
+Tickets::Cli.new(options).query

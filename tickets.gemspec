@@ -34,5 +34,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   
   spec.add_development_dependency "colorize"
-  spec.add_development_dependency "text-table"
+  spec.add_development_dependency "terminal-table"
+  spec.add_development_dependency "trollop"
+  spec.add_development_dependency "rest-client"
 end

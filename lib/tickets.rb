@@ -1,5 +1,12 @@
-require "tickets/version"
+require 'json'
+require 'terminal-table'
+require 'colorize'
+require 'rest-client'
 
-module Tickets
-  # Your code goes here...
-end
+require 'tickets/version'
+require 'tickets/stations'
+require 'tickets/trains'
+require 'tickets/cli'
+
+
+
