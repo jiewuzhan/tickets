@@ -1,3 +1,5 @@
+module Tickets; end
+
 require 'json'
 require 'terminal-table'
 require 'colorize'
